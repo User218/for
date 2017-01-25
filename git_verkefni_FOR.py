@@ -11,3 +11,17 @@ print("Tölurnar lagðar saman eru",t1+t2,"og tölurnar margfaldaðar saman eru"
 fn=input("Fornafn:")
 en=input("Eftirnaft: ")
 print("Halló",fn,en)
+
+#Dæmi 3
+texti=input("Sláðu inn texta: ")
+c = 0
+b = 0
+for i in texti:
+    if i.isupper():
+        c += 1
+for i in texti:
+    if i.islower():
+        b += 1
+print()
+print("Í þessum texta eru:")
+print(c,"hástafir og",b,"lágstafir.")
